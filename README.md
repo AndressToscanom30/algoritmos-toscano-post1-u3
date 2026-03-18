@@ -36,13 +36,10 @@ Los siguientes tiempos fueron medidos en microsegundos (μs) con Mode.AverageTim
 
 | n  | Recursivo (μs) | Memoización (μs) | Tabulación (μs) |
 |----|----------------|------------------|-----------------|
-| 10 | ~0.05          | ~0.08            | ~0.03           |
-| 20 | ~5.2           | ~0.10            | ~0.04           |
-| 30 | ~5800          | ~0.12            | ~0.05           |
-| 35 | ~185000        | ~0.14            | ~0.06           |
-
-> Nota: Los valores de la tabla son ilustrativos. Reemplázalos con los resultados
-> reales obtenidos al ejecutar el benchmark en tu máquina.
+| 10 | 0,420 ±        | 0,027 ±          | 0,003 ±         |
+| 20 | 57,398 ±       | 0,071 ±          | 0,003 ±         |
+| 30 | 7202,278 ±     | 0,233 ±          | 0,004 ±         |
+| 35 | 80611,639 ±    | 0,276 ±          | 0.005 ±         |
 
 ---
 
